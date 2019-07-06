@@ -26,7 +26,7 @@ HEAD is a ref(rence) to the "current" branch(or sometimes a commit...more on tha
 ## Commit messages
 
 Default editor is vim(this can be changed)
- - `i` to enter *inster* mode
+ - `i` to enter *insert* mode
  - Type commit message
  - `Esc` -> `:wq` -> `Enter` to write message and quit Or use 'git commit -m <"message">'
 
