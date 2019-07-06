@@ -1,4 +1,4 @@
-##This is a repositor for learning Git
+##This is a repository for learning Git
 
 ##Commands used
 
