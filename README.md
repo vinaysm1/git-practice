@@ -19,3 +19,5 @@ Default editor is vim(this can be changed)
  - First line should be clear, accurate, and concise
  - Use proper spelling, grammar and punctuations.
  Don't end with a `.`.
+
+ For more advice, see: https://chris.beams.io/posts/git-commit/
