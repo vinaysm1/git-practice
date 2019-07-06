@@ -14,7 +14,7 @@
 
 ## What's a branch?
 
-A nramcj os a ref(erence) to a commit. When HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a Branch, the branch is updated to ref(er) to the new commit.
+A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a Branch, the branch is updated to ref(er) to the new commit.
 
 ## What's HEAD?
 
