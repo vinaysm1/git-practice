@@ -2,7 +2,7 @@
 
 ##Commands used
 
-- git init: create a repository.
+- git init: create a new repository.
 - git status: Compare working directory, stating area and current branch.
 - git add: Add changes from working directory to staging area.
 - git commit: Commit changes from staging area to current branch.
