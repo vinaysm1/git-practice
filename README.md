@@ -12,7 +12,7 @@
 - git checkout: Checkout (change to) to a particular branch. update HEAD and apply changes to working directory.
 - git checkout -b: Create branch, then check it out
 - git stash: Stash changes from  working directory
-- git stash list: list stashes
+- git stash list: list stashes across all the branches 
 - git stash pop: Apply stashed changes to working directory
 - git log --all: This shows commits on all the branches
 - git log <branch name>: Shows commits on the specified branches
@@ -22,6 +22,7 @@
 - git log --until "July 5": shows commits until the specified day.
 - git log --oneline: commits displayed in a single line (compact view).
 - git log --oneline --graph --all: shows commits in graphical representation for all the branches.
+- git show <commit id>: shows the changes made via the specific commit ID in detail.
 
 
 ## What's a branch?
