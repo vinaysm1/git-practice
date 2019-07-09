@@ -7,14 +7,20 @@
 - git add: Add changes from working directory to staging area.
 - git commit: Commit changes from staging area to current branch.
 - git config: Set or get configuration.
-- git log: Show history of project commits on the current branch.
-- git branch -c: Create a Branch.
-- git checkout: Checkout (change to) to a particular branch. update HEAD and apply changes to working directory.
-- git checkout -b: Create branch, then check it out
+
+- git branch -c <branch name>: Create a Branch.
+- git checkout <branch name>: Checkout (change to) to a particular branch. update HEAD and apply changes to working directory.
+- git checkout -b <branch name>: Create branch, then check it out
+- git branch -v: shows the branches with most recent commit information.
+- git branch --no-merged branch1: List branches that have unmerged commits with the given branch.
+- git branch --merged branch1: List branches that have no unmerged commits with the given branch.
+
 - git stash: Stash changes from  working directory
 - git stash list: list stashes across all the branches
 - git stash pop: Apply stashed changes to working directory
-- git log: Shows the log in the current branch. (newly added)
+
+- git log: Show history of project commits on the current branch.
+- git log: Shows the log in the current branch.(newly added)
 - git log --all: This shows commits on all the branches
 - git log <branch name>: Shows commits on the specified branches
 - git log <commit id>: Shows commits prior to the given commit id
@@ -23,8 +29,14 @@
 - git log --until "July 5": shows commits until the specified day.
 - git log --oneline: commits displayed in a single line (compact view).
 - git log --oneline --graph --all: shows commits in graphical representation for all the branches.
+- git log branch1..branch2: Log of commits in branch2 that don't exist in branch1.
+- git log branch1...branch2: Log of commits in either branch but not both.
+
 - git show <commit id>: shows the changes made via the specific commit ID in detail.
+
 - git merge: Merge commits from two different branches.
+- git merge --abort: Abort an in-progress merge.
+- git merge --no-commit --no-ff: Attempt to merge, but don't create an auto merge or ff merge.
 
 ## What's a branch?
 
