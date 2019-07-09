@@ -1,6 +1,6 @@
-##This is a repository for learning Git
+## This is a repository for learning Git
 
-##Commands used
+## Commands used
 
 - git init: create a new repository.
 - git status: Compare working directory, stating area and current branch.
