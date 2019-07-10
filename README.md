@@ -38,6 +38,10 @@
 - git merge --abort: Abort an in-progress merge.
 - git merge --no-commit --no-ff: Attempt to merge, but don't create an auto merge or ff merge.
 
+- git remote -v:
+- git remote add origin <git path>:
+- git push origin master:
+
 ## What's a branch?
 
 A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a Branch, the branch is updated to ref(er) to the new commit.
