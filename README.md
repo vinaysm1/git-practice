@@ -41,6 +41,7 @@
 - git remote -v: List remote repositories
 - git remote add `remote` `git path`: Add a new `remote` at `url`.
 - git push -u `remote` `branch`: Push `branch` to `remote`, and set default upstream for the `branch`.
+- git fetch: Fetch the updates from `remote`
 
 just did a ff merge with remote-commands branch
 
