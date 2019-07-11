@@ -42,6 +42,7 @@
 - git remote add `remote` `git path`: Add a new `remote` at `url`.
 - git push -u `remote` `branch`: Push `branch` to `remote`, and set default upstream for the `branch`.
 - git fetch: Fetch the updates from `remote`
+- git pull: Fetch and then merge
 
 just did a ff merge with remote-commands branch
 
@@ -71,3 +72,9 @@ Merging means to bring the changes from one branch into another.
 
 - A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
 - An Automatic merge happens when the two histories have diverged, but git is able to reconcile them into one set of changes. This creates a new commit on the current branch.
+
+## What's a remote?
+
+A remote repo is one hosted somewhere other than on our local machine. We can add remotes with `git remote add`, and set up *tracking branches* to track differences between out local and remote repositories.
+
+We push to remotes with `git push`, and fetch from them with `git fetch`. We can also fetch and merge in one set with `git pull`.
