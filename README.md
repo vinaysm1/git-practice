@@ -39,8 +39,8 @@
 - git merge --no-commit --no-ff: Attempt to merge, but don't create an auto merge or ff merge.
 
 - git remote -v: List remote repositories
-- git remote add <remote> <git path>: Add a new <remote> at <url>
-- git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for the <branch>
+- git remote add `remote` `git path`: Add a new `remote` at `url`.
+- git push -u `remote` `branch`: Push `branch` to `remote`, and set default upstream for the `branch`.
 
 just did a ff merge with remote-commands branch
 
