@@ -1,8 +1,12 @@
 ## This section will talk about basic git remote commands
 
 - git remote -v: shows the available remotes for the current branch.
-- git remote add origin <https path>: This command will create a origin for the current branch you are in.
-- git push origin master: This command will push the contents of your current branch to the remote master.
+- git remote add <origin> <https path>: This command will create a new public repository called origin for the current branch you are in.
+- git push <origin> master: This command will push the contents of your current branch to the remote master.
+- git push -u <origin> master: This command will make the remote repository the default upstream for all future pushes.
+
+- git remove <origin>: This command will remove connection between the remote <origin> and local repository.
+
 
 ## New Project
 
